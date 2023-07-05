@@ -98,6 +98,7 @@ export default function GameScreen(props) {
 const styles = StyleSheet.create({
   screen: {
     flex: 1,
+    alignItems: "center",
   },
   Top: {
     flex: 3.5,
@@ -120,6 +121,6 @@ const styles = StyleSheet.create({
     width: "80%",
 
     justifyContent: "center",
-    marginLeft: "10%",
+    // marginLeft: "10%",,
   },
 });

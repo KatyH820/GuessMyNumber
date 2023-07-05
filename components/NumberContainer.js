@@ -1,5 +1,4 @@
-import { Text, View, StyleSheet } from "react-native";
-import CustomButton from "./CustomButton";
+import { Text, View, StyleSheet, Dimensions } from "react-native";
 
 export default function NumberContainer(props) {
   return (
@@ -9,6 +8,7 @@ export default function NumberContainer(props) {
   );
 }
 
+const deviceWidth = Dimensions.get("window").deviceWidth;
 const styles = StyleSheet.create({
   container: {
     width: "100%",
